@@ -11,8 +11,12 @@
          Ex: let expr:number=0o744  --octal
          
 ### 4.Array:
+  Ist way  :
         Ex: let expr:number[]=[1,2,3,4]      --------- number array
         Ex: let expr:number[]=['mani','raja','bala','mallika']      --------- String array
-        
+  II nd Way:
+        Ex: let expr:Array<number>=[1,2,3,4]
+        Ex: let expr:Array<string>=['mani','raja','bala','mallika']
+         
 ### 5.Tuple:
       
