@@ -1,4 +1,4 @@
 # Typescript
 ## Basic Types
-- Boolean
+###- Boolean
          Ex: let expr:boolean:true
