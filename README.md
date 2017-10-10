@@ -39,4 +39,27 @@
       x = ["hello", 10]; // OK
 ### 6.enum
 
-      enum 
+      enum color{red,yello,green,black,white}
+      let expr:color=color.green;
+      
+### 7.any:
+
+   let notsure:any=4;
+   let notsure:any='muthumani';
+   let notsure:any=true;
+   let notsure:object=4;
+   
+   variables of type Object only allow you to assign any value to them - you can’t call arbitrary methods on them, even ones that actually exist:
+   you may have an array but the array has a mix of different types:
+   let list:any[]=[true,1,2,'mani','muthu']
+   
+   Type:
+   -void - opposity to any  - It will not return anything. we can assign only undefined/null
+   -null/Undefined-
+   -never-
+   
+   let:
+   
+   in javascript , we used 'var' keyword to declare a variable. 
+   in Typescript, we use 'let' keyword to declare a variable.
+  
