@@ -1,5 +1,18 @@
 # Typescript
 ## Basic Types
+-Boolean
+-string
+-number
+-array
+-tuple
+-enum
+-any
+-void
+-null /undefined
+-Type assertions
+-let
+
+
 ### 1.Boolean
          Ex: 'let' expr:boolean=true
 ### 2.String
@@ -19,4 +32,11 @@
         Ex: let expr:Array<string>=['mani','raja','bala','mallika']
          
 ### 5.Tuple:
-      
+      Tuple types allow you to express an array where the type of a fixed number of elements is known, but need not be the same.
+      // Declare a tuple type
+      let x: [string, number];
+      // Initialize it
+      x = ["hello", 10]; // OK
+### 6.enum
+
+      enum 
